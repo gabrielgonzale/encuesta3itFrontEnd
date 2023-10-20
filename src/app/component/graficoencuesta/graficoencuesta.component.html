@@ -1,0 +1,17 @@
+<div  class="container d-flex flex-column align-items-center chart-container" style="margin-top: 20vh;">
+    <h1>Estadistica de gustos musicales</h1>
+    <br>
+<ngx-charts-bar-vertical
+  [view]="view"
+  [results]="listaEstilos"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="showLegend"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  >
+</ngx-charts-bar-vertical>
+</div>
